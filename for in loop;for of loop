@@ -1,0 +1,17 @@
+//for in loop:
+const person = {
+    name: "nani",
+    age: 30,
+    job: "developer"
+  };
+  
+  for (const key in person) {
+    console.log(key, person[key]);
+  }
+  //for of loop:
+  const fruits = ["apple", "banana", "cherry", "date"];
+
+for (const fruit of fruits) {
+  console.log(fruit);
+}
+
