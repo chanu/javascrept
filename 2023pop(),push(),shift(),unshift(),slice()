@@ -1,0 +1,36 @@
+let fruits = ['apple', 'banana'];
+fruits.push('cherry');
+console.log(fruits);
+//pop()`:
+let chinni = ['been', 'bana', 'chinni'];
+fruits.pop();
+console.log(chinni);
+letfruits = ['apple', 'banana', 'cherry'];
+// push(): 
+letfruits = ['apple', 'banana'];
+fruits.push('cherry');
+console.log(fruits); // ["apple", "banana", "cherry"];
+// shift(): 
+letfruits = ['apple', 'banana', 'cherry'];
+fruits.shift();
+console.log(fruits); // ["banana", "cherry"];
+// unshift(): 
+letfruits = ['banana', 'grape'];
+fruits.unshift('apple');
+console.log(fruits); // ["apple", "banana", "grape"];
+//slice(): 
+let numbers = [1, 2, 3, 4, 5];
+let sliced = numbers.slice(1, 4);
+console.log(sliced); // [2, 3, 4]
+
+
+
+
+
+
+
+
+
+
+
+
